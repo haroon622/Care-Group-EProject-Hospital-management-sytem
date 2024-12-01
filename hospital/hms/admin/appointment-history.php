@@ -74,7 +74,6 @@ if(strlen($_SESSION['id']==0)) {
 												<th>Appointment Creation Date  </th>
 												<th>Current Status</th>
 												<th>Action</th>
-												
 											</tr>
 										</thead>
 										<tbody>

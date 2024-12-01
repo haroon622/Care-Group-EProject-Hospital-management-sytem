@@ -77,8 +77,8 @@ if(isset($_GET['del']))
 												<th>Specialization</th>
 												<th class="hidden-xs">Doctor Name</th>
 												<th>Creation Date </th>
-												<th>Action</th>
 												<th>City</th>
+												<th>Action</th>
 												
 											</tr>
 										</thead>
@@ -95,7 +95,7 @@ while($row=mysqli_fetch_array($sql))
 												<td class="hidden-xs"><?php echo $row['specilization'];?></td>
 												<td><?php echo $row['doctorName'];?></td>
 												<td><?php echo $row['creationDate'];?>
-												<td><?php echo $row['city'];?>
+												<td><?php echo $row['address'];?>
 												</td>
 												
 												<td >

@@ -64,8 +64,8 @@ if(strlen($_SESSION['id']==0)) {
 <th>Patient Gender </th>
 <th>Creation Date </th>
 <th>Updation Date </th>
-
 <th>City</th>
+<th>Action</th>
 </tr>
 </thead>
 <tbody>
@@ -83,7 +83,8 @@ while($row=mysqli_fetch_array($sql))
 <td><?php echo $row['PatientGender'];?></td>
 <td><?php echo $row['CreationDate'];?></td>
 <td><?php echo $row['UpdationDate'];?>
-<td><?php echo $row['city'];?>
+<td><?php echo $row['City'];?>
+<br>
 
 </td>
 <td>
